@@ -28,6 +28,16 @@ build-type:          Simple
 extra-source-files:  ChangeLog.md, README.md
 cabal-version:       >=1.10
 
+source-repository head
+  type:     git
+  location: https://github.com/marcosdumay/acme-kitchen-sink.git
+  branch:   master
+
+source-repository this
+  type:     git
+  location: https://github.com/marcosdumay/acme-kitchen-sink.git
+  tag:   0.1.0.0
+
 library
   exposed-modules:
                   Control.Applicative.Acme,
