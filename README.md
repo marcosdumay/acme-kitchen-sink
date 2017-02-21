@@ -23,8 +23,9 @@ The library must compile at all times.
 
 Code should preferentially have names that do not conflict with well
 used libraries, so people can better play with and evaluate it. When
-unsure, feel free to add `Acme` modules at any namespace, and try to
-keep extensions restricted to modules and non-conflicting.
+unsure, feel free to add `Acme` modules at any namespace.
+
+Try to keep extensions restricted to modules and non-conflicting.
 
 This library is compiled with -Wall. Feel free to disable warnings in
 modules when necessary. Just don't let them spill into the terminal.
@@ -67,27 +68,27 @@ You too can join the club of happy acme-kitchen-sink users. See what
 some of our most famous users have to say about it and get a feel for
 the kind of experiences acme-kitchen-sink can bring for you:
 
-> Acme-kitchen-sync feels like home! The overall architecture, the
+> "Acme-kitchen-sync feels like home! The overall architecture, the
 > long reaching conventions, the enforced structure, the unity of
 > design, the well thought-out decisions. Everything in it reminds my
-> favorite programming environment.
-
-Proud PHP Programmer
+> favorite programming environment."
+>
+> -- Proud PHP Programmer
 
 ---
 
->  It was about time that lazy compiler started to give me *options*!
+>  "It was about time that lazy compiler started to give me *options*!
 >  I'm used to tools that relentless look for ways to help me, and
 >  keep me informed of all necessary details. Only after I imported
 >  acme-kitchen-sink I started getting my usual amount of error
 >  tracing information at compile time. I'll tell you - I don't miss
->  templates anymore.
-
-Converted C++ Coder
+>  templates anymore."
+>
+> -- Converted C++ Coder
 
 ---
 
-> Out there on the road, there are no safe places, no retreats, no
+> "Out there on the road, there are no safe places, no retreats, no
 > margin for error. Out there you'll suffer on every unpatched hole,
 > every virtual construction will turn against you, you will
 > eventually hit every boulder on your way, or it will hit you!
@@ -98,9 +99,9 @@ Converted C++ Coder
 > quality of results I've grown to expect from any other Acme tool, no
 > more, no less; no disappointments, no surprises.
 >
-> I can only say one thing about `acme-kitchen-sink`: Would use again!
- 
-Willie C. - Certified Acme Product Deployer Expert (APDE)
+> I can only say one thing about `acme-kitchen-sink`: __Would use again!__"
+>  
+> -- Willie C. - Certified Acme Product Deployer Expert (APDE)
 
 ----
 
@@ -110,6 +111,8 @@ Well, yes, just not too serious.
 
 I do think there is a need for a space for sharing uncertain code and
 talking about it. This package provides it.
+
+## Small Print
 
 1 - May contain rubber.
 
