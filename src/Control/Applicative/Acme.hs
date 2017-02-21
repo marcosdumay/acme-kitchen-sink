@@ -1,7 +1,5 @@
 module Control.Applicative.Acme where
 
-import Control.Applicative
-
 {- |
 Application with the inverse lifting behavior of fmap.
 
