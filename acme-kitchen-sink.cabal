@@ -3,7 +3,7 @@
 
 name:                acme-kitchen-sink
 version:             0.1.0.0
-synopsis:            A place for dumping that does-not-feel-right code while you talk about it and make it good enough for somewhere else.
+synopsis:            A place for dumping that does-not-feel-right code while you improve it
 description:
             Do you have code you feel that should be shared on some library, but
             can't pin down on how it should be named, or structured? Are you
@@ -24,6 +24,7 @@ license:             BSD3
 license-file:        LICENSE
 author:              Marcos Dumay de Medeiros
 maintainer:          marcos@marcosdumay.com
+category:            Other
 build-type:          Simple
 extra-source-files:  ChangeLog.md, README.md
 cabal-version:       >=1.10
@@ -48,3 +49,4 @@ library
   build-depends:       base >=4.9 && <4.10
   hs-source-dirs:      src
   default-language:    Haskell2010
+  ghc-options: -Wall -fwarn-incomplete-patterns

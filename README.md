@@ -27,10 +27,11 @@ unsure, feel free to add `Acme` modules at any namespace.
 
 Try to keep extensions restricted to modules and non-conflicting.
 
-This library is compiled with -Wall. Feel free to disable warnings in
-modules when necessary. Just don't let them spill into the terminal.
+This library is compiled with -Wall e -Wwarn-incomplete-patterns. Feel
+free to disable warnings in modules when necessary. Just don't let
+them spill into the terminal.
 
-If you are in doubt if your code is good enough for adding, it
+If you are in doubt if your code is good enough for this package, it
 is. Open your issues and send a PR.
 
 ## Usage
